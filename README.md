@@ -1,6 +1,6 @@
 # SP-HCP-Consul-KV-AWS
 
-# Prerequisites (Excerpts from: https://learn.hashicorp.com/tutorials/cloud/terraform-hcp-consul-provider)
+## Prerequisites (Excerpts from: https://learn.hashicorp.com/tutorials/cloud/terraform-hcp-consul-provider)
 1. Install Terraform:
 https://learn.hashicorp.com/tutorials/terraform/install-cli
 
