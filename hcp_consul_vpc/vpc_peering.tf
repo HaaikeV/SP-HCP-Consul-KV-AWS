@@ -11,7 +11,7 @@ data "aws_arn" "peer" {
 }
 
 resource "hcp_aws_network_peering" "peer" {
-  hvn_id              = hcp_hvn.example_hvn.hvn_id
+  hvn_id              = hcp_hvn.dev_hvn.hvn_id
   peering_id          = var.peering_id
   peer_vpc_id         = aws_vpc.peer.id
   peer_account_id     = aws_vpc.peer.owner_id

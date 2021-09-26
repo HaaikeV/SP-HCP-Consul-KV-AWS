@@ -5,7 +5,7 @@ resource "hcp_hvn" "dev_hvn" {
 }
 
 resource "hcp_consul_cluster" "dev_hcp" {
-  hvn_id          = hcp_hvn.example_hvn.hvn_id
+  hvn_id          = hcp_hvn.dev_hvn.hvn_id
   cluster_id      = var.cluster_id
   tier            = var.consul_tier
 #   public_endpoint = true
