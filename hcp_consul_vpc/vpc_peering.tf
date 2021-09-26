@@ -19,7 +19,7 @@ resource "hcp_aws_network_peering" "peer" {
 }
 
 resource "hcp_hvn_route" "peer_route" {
-  hvn_link         = hcp_hvn.example_hvn.self_link
+  hvn_link         = hcp_hvn.dev_hvn.self_link
   hvn_route_id     = var.route_id
   destination_cidr = aws_vpc.peer.cidr_block
   target_link      = hcp_aws_network_peering.peer.self_link
