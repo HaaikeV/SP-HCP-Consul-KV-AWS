@@ -11,11 +11,11 @@ https://portal.cloud.hashicorp.com/
 https://aws.amazon.com/
 
 4. Configure your AWS credentials locally:
-----
+--
 export AWS_ACCESS_KEY_ID=<your AWS access key ID>
 export AWS_SECRET_ACCESS_KEY=<your AWS secret access key>
 export AWS_SESSION_TOKEN=<your AWS session token>
-----
+--
 
 
 
